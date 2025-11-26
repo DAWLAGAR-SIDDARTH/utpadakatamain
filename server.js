@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000;
 // -------------------------------------------------------------------------
 // PASTE YOUR MONGODB URL INSIDE THE QUOTES BELOW
 // -------------------------------------------------------------------------
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/utpadakata';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://dsiddarth286_db_user:<db_password>@cluster0.ujj3f2r.mongodb.net/?appName=Cluster0';
 
 // Middleware
 app.use(cors());
